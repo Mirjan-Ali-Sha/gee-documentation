@@ -1,0 +1,64 @@
+/* Custom styling for Google Earth Engine Documentation */
+
+/* Code blocks */
+.highlight {
+    background-color: #f8f9fa;
+    border-left: 4px solid #007acc;
+    margin: 1em 0;
+}
+
+/* Warning boxes */
+.admonition.warning {
+    border-left: 4px solid #ff6b35;
+}
+
+/* Note boxes */
+.admonition.note {
+    border-left: 4px solid #007acc;
+}
+
+/* Success boxes */
+.admonition.tip {
+    border-left: 4px solid #28a745;
+}
+
+/* Copy button styling */
+.copybtn {
+    background-color: #007acc;
+    border: none;
+    color: white;
+    padding: 0.25em 0.5em;
+    border-radius: 3px;
+    font-size: 0.8em;
+}
+
+.copybtn:hover {
+    background-color: #005999;
+}
+
+/* Table styling */
+table.docutils {
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin: 1em 0;
+}
+
+table.docutils th,
+table.docutils td {
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    text-align: left;
+}
+
+table.docutils th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .wy-table-responsive table td,
+    .wy-table-responsive table th {
+        white-space: normal;
+    }
+}

@@ -9,7 +9,7 @@ description = "Comprehensive Google Earth Engine Documentation"
 readme = "README.md"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Mirjan Ali Sha", email = "mastools.help@gmail.com"}
 ]
 classifiers = [
     "Development Status :: 5 - Production/Stable",

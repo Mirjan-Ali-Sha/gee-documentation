@@ -289,4 +289,4 @@ Next Steps
 * Learn about time series calculations
 * Explore classification applications
 
-Next: :doc:`../../intermediate/index`
+Next: :doc:`../intermediate/index`

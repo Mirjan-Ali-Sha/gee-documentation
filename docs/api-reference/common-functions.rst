@@ -89,7 +89,7 @@ Apply a mask to an image.
    vegetation_only = ndvi.updateMask(ndvi.gt(0.3))
 
 Collection Operations
---------------------
+---------------------
 
 **ee.ImageCollection()**
 
@@ -183,7 +183,7 @@ Reduce collection to single image.
    )
 
 Geometry Operations
-------------------
+-------------------
 
 **ee.Geometry.Point()**
 
@@ -247,7 +247,7 @@ Get geometry centroid.
    coords = center.coordinates()
 
 Reduction Operations
--------------------
+--------------------
 
 **image.reduceRegion()**
 
@@ -305,7 +305,7 @@ Reduce collection over region.
    ))
 
 Conditional Operations
----------------------
+----------------------
 
 **image.where()**
 
@@ -344,7 +344,7 @@ Apply conditional masking.
    )
 
 Mathematical Operations
-----------------------
+-----------------------
 
 **Basic arithmetic:**
 
@@ -393,7 +393,7 @@ Mathematical Operations
    clipped = image.clamp(0, 1)
 
 Export Operations
-----------------
+-----------------
 
 **ee.batch.Export.image.toDrive()**
 
@@ -464,7 +464,7 @@ Export image collection as video.
    )
 
 Utility Functions
-----------------
+-----------------
 
 **ee.Date()**
 

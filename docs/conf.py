@@ -43,10 +43,12 @@ copybutton_prompt_text = "$ "
 copybutton_only_copy_prompt_lines = False
 
 # Intersphinx mapping
+# Intersphinx mapping - remove the broken Earth Engine URL
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3', None),
-    'ee': ('https://developers.google.com/earth-engine/apidocs', None),
+    # Remove this line: 'ee': ('https://developers.google.com/earth-engine/apidocs', None),
 }
+
 
 # MyST configuration
 myst_enable_extensions = [

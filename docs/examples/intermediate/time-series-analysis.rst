@@ -121,7 +121,7 @@ Creating Time Series
        return with_indices.map(extract_values)
 
 Temporal Compositing
--------------------
+--------------------
 
 **Monthly composites:**
 

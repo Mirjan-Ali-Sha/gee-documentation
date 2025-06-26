@@ -333,7 +333,7 @@ Testing Strategies
            self.assertGreater(filtered.size().getInfo(), 0)
 
 Production Deployment
---------------------
+---------------------
 
 **Configuration Management**
 

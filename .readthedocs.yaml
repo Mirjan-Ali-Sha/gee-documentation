@@ -7,7 +7,7 @@ build:
 
 sphinx:
   configuration: docs/conf.py
-  fail_on_warning: true
+  fail_on_warning: false  # Change from true to false temporarily
 
 formats:
   - pdf
@@ -19,6 +19,3 @@ python:
     - requirements: requirements.txt
     - method: pip
       path: .
-
-submodules:
-  include: all

@@ -4,8 +4,8 @@ sys.path.insert(0, os.path.abspath('../'))
 
 # Project information
 project = 'Google Earth Engine Documentation'
-copyright = '2025, Your Name'
-author = 'Your Name'
+copyright = '2025, Mirjan Ali Sha'
+author = 'Mirjan Ali Sha'
 release = '1.0.0'
 
 # Extensions

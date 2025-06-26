@@ -1,0 +1,59 @@
+[build-system]
+requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gee-documentation"
+version = "1.0.0"
+description = "Comprehensive Google Earth Engine Documentation"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Your Name", email = "your.email@example.com"}
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "earthengine-api>=0.1.390",
+    "google-auth>=2.0.0",
+    "google-auth-oauthlib>=0.5.0",
+    "google-cloud-storage>=2.0.0",
+]
+
+[project.optional-dependencies]
+docs = [
+    "sphinx>=5.0.0",
+    "sphinx-rtd-theme>=1.0.0",
+    "sphinx-copybutton>=0.5.0",
+    "myst-parser>=0.18.0",
+]
+dev = [
+    "pytest>=7.0.0",
+    "black>=22.0.0",
+    "flake8>=5.0.0",
+    "isort>=5.0.0",
+]
+
+[project.urls]
+Documentation = "https://gee-documentation.readthedocs.io/"
+Repository = "https://github.com/yourusername/gee-documentation"
+"Bug Tracker" = "https://github.com/yourusername/gee-documentation/issues"
+
+[tool.setuptools]
+packages = ["examples"]
+
+[tool.black]
+line-length = 88
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"

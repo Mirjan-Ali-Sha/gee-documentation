@@ -1,0 +1,8 @@
+earthengine-api>=0.1.390
+google-auth>=2.0.0
+google-auth-oauthlib>=0.5.0
+google-cloud-storage>=2.0.0
+sphinx>=5.0.0
+sphinx-rtd-theme>=1.0.0
+sphinx-copybutton>=0.5.0
+myst-parser>=0.18.0
